@@ -89,21 +89,8 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 if (!/web|desktop|unknown/gi.test(dispositivo)) {  
 let menu = `
-╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
-┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
-┃☭│ _ɪᴢɪ_ 𝅙
-┃☭│ シWɪʟsᴏɴシ︎
-┃☭│
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
-┃☭│ 
-┃☭╰───────────────
-╰═════════════════⊷
-╭════〘卐 _INFO KATASHI BOT_ 卐〙════⊷❍
+
+╭════〘卐 _𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧_ 卐〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ \`\`\`${horarioFecha}\`\`\`
 ┃☭│ ᩭ✎ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 

@@ -21,7 +21,7 @@ let estado = `╭═══〘卐 *𝙀𝙎𝙏𝘼𝘿𝙊 | 𝙎𝙏𝘼𝙏�
 ┃☭│➥ ${vs}
 ┃☭│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃☭│✿ 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 | 𝗖𝗥𝗘𝗔𝗧𝗢𝗥
-┃☭│ღ 𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂
+┃☭│ღ 𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧
 ┃☭│┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃☭│✿ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 | 𝗖𝗢𝗡𝗧𝗔𝗖𝗧
 ┃☭│➥ *${ig}*
@@ -37,12 +37,12 @@ let estado = `╭═══〘卐 *𝙀𝙎𝙏𝘼𝘿𝙊 | 𝙎𝙏𝘼𝙏�
 ┃☭│ღ *Usuario(s) Prohibido(s) | Prohibited Urs*
 ┃☭│➥ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰═════════════════⊷`
-await conn.sendButton(m.chat, estado, `𝑲𝑨𝑻𝑨𝑺𝑯𝑰 𝑭𝑼𝑲𝑼𝑺𝑯𝑰𝑴𝑨 - 𝑨𝑺𝑰𝑺𝑻𝑬𝑵𝑪𝑰𝑨\n${asistencia}\n\n` + wm, pp, [
+await conn.sendButton(m.chat, estado, `𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧 - 𝑨𝑺𝑰𝑺𝑻𝑬𝑵𝑪𝑰𝑨\n${asistencia}\n\n` + wm, pp, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪', '.allmenu'],
 ['𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 | 𝙎𝙥𝙚𝙚𝙙', '/ping'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '#menu']], null, [
 ['𝑲𝒂𝒕𝒂𝒔𝒉𝒊𝑩𝒐𝒕-𝑴𝑫', `${md}`]], m)
-/*conn.sendHydrated(m.chat, estado, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, imagen1, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
+/*conn.sendHydrated(m.chat, estado, `𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, imagen1, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪', '.allmenu'],
 ['𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 | 𝙎𝙥𝙚𝙚𝙙', '/ping'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '#menu']
@@ -80,7 +80,7 @@ conn.sendHydrated(m.chat, estado, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎�
 }
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(estado|status|estate|state|heygata|stado|stats|botstat(us)?)$/i
+handler.command = /^(estsdsdado|stsdsdatus|esdsdstate|ssdsdtate|heysdsdgata|stsdsdado|ssdsdtats|botsdsdsdstat(us)?)$/i
 export default handler
 
 function clockString(ms) {

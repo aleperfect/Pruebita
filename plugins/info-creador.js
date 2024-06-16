@@ -11,10 +11,7 @@ const cat = `🥷 𝑲𝒂𝒕𝒂𝒔𝒉𝒊𝑩𝒐𝒕-𝑴𝑫 🥷
 
 *---------------------*
 
-*CENTER GATABOT*
-*katashifukushima23@gmail.com*
-
-𝙆𝘼𝙏𝘼𝙎𝙃𝙄 𝙁𝙐𝙆𝙐𝙎𝙃𝙄𝙈𝘼 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧
 *${asistencia}*
 
 *---------------------*
@@ -33,10 +30,10 @@ let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'un
 let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
 
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : official[4][0] == String(contact[0]) ? official[4][1] : lenguajeGB.smsContacto3() 
-description = official[0][0] == String(contact[0]) ? 'Solo temas de KatashiBot' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
-correo = official[0][0] == String(contact[0]) ? 'katashifukushima23@gmail.com' : official[1][0] == String(contact[0]) ? 'soeasynt@gmail.com' : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto6() : mail === '' ? lenguajeGB.smsContacto6() : mail
+description = official[0][0] == String(contact[0]) ? 'Solo temas de 𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
+correo = official[0][0] == String(contact[0]) ? '𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧' : official[1][0] == String(contact[0]) ? '𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧' : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto6() : mail === '' ? lenguajeGB.smsContacto6() : mail
 lugar = official[0][0] == String(contact[0]) ? '🇵🇪 Perú' : official[1][0] == String(contact[0]) ? '🇲🇽 México' : official[2][0] == String(contact[0]) ? '🇻🇪 Venezuela' : official[3][0] == String(contact[0]) ? '🇲🇽 México' : country === '' ? '🇵🇪 Perú' : country
-enlace = official[0][0] == String(contact[0]) ? 'https://github.com/KatashiFukushima' : official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' : official[2][0] == String(contact[0]) ? 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37' : official[3][0] == String(contact[0]) ? 'https://chat.whatsapp.com/EBQOkLPgftc8mPR4KTml8S' : md 
+enlace = official[0][0] == String(contact[0]) ? 'https://github.com/KatashiFukushima' : official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' : official[2][0] == String(contact[0]) ? '𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧' : official[3][0] == String(contact[0]) ? '𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧' : md 
    
 lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@elrebelde.21' : null]) }  
 lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centergatabot@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
@@ -49,7 +46,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}} 
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador|contactos?|contacts?)$/i
+handler.command = /^(owDFnDFDer|creFDFator|proDFDFDFpietario|duDFDFeño|dDFDFueña|propiDFDFetaria|duDFDFeño|creDFDFadora|creadDFDFor|contaDFDFctos?|coDFDFntacts?)$/i
 
 export default handler
 

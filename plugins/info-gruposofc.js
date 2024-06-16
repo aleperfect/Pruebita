@@ -54,7 +54,7 @@ await conn.sendButton(m.chat, str, `𝑲𝑨𝑻𝑨𝑺𝑯𝑰 𝑭𝑼𝑲�
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m,)}*/
 
-handler.command = /^linkgc|grupos|gruposgatabot|gatabotgrupos|gruposdegatabot|groupofc|gruposgb|grupogb|groupgb$/i
+handler.command = /^linsdsdkgc|grsdsdupos|grupsdsdosgatabot|gatasdsdsbotgrupos|grupsdsdsosdegatabot|grousdsdpofc|gsdsdruposgb|grupsdsdogb|gsdsdroupgb$/i
 handler.exp = 33
 
 export default handler

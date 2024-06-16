@@ -32,6 +32,6 @@ await conn.sendButton(m.chat, str, wm, media, [
 ['𝘾𝙧𝙚𝙖𝙙𝙤𝙧𝙖 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 💗', '#owner'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m,)}*/
-handler.command = /^cuentasoficiales|katashiig|cuentaskb|cuentakb|accounts|katashiaccounts|account|igkatashi|cuentasdekatashi|cuentasdekatashibot|cuentakatashibot|cuentaskatashibot$/i
+handler.command = /^cuentasofSDFSFiciales|katasFDFDhiig|cuenDFDFtaskb|cuentaDFDFkb|acDFDFounts|katDFDFashiaccounts|accDFDFount|igkaDFDtashi|cuentDFDFasdekatashi|cuentDFDFasdekatashibot|cuentakDFDFatashibot|cuentaskatDFDashibot$/i
 handler.exp = 35
 export default handler
